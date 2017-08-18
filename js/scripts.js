@@ -13,10 +13,10 @@ function range(userInput) {
     } else {
       rangeArray.push(number)
     }
-  }
+  };
   console.log(rangeArray);
   return rangeArray
-}
+};
 
 //user interface logic
 $(document).ready(function() {
@@ -26,6 +26,12 @@ $(document).ready(function() {
     var user = $("#userInput").val();
     //convert user input to integer
     var userInput = parseInt(user)
-    console.log(range(userInput))
+    //console.log(range(userInput))
+    var results = range(userInput)
+
+    //Display
+    results.forEach(function(result) {
+      $("#display").append("<li>" + result + "</li>");
+    });
   });
 });
