@@ -23,6 +23,8 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     //store user input
+    $("#display").empty();
+
     var user = $("#userInput").val();
     //convert user input to integer
     var userInput = parseInt(user)
