@@ -1,0 +1,21 @@
+/********section 1**********/
+
+.section 1>h1 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+/**********section2***************/
+
+.well {
+  margin-left: 100px;
+}
+
+.panel {
+  margin: 100px;
+}
+
+.well>h2 {
+  text-align: center;
+}
