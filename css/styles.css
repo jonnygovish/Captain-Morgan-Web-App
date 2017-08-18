@@ -1,3 +1,8 @@
+body {
+  background-color: #ffe4c4;
+}
+
+
 /********section 1**********/
 
 .section 1>h1 {
@@ -18,4 +23,11 @@
 
 .well>h2 {
   text-align: center;
+}
+
+
+/**********section3**********/
+
+.section-3 {
+  background-color: turquoise;
 }
